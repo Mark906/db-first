@@ -1,0 +1,14 @@
+targa			VARCHAR(7), PRIMARY KEY, NOT NULL, UNIQUE, INDEX
+marca			VARCHAR(10), NOT NULL
+prezzo			DECIMAL(10,2), NOT NULL
+anno			YEAR, NOT NULL
+tipologia		VARCHAR(10)
+tipologia cambio	VARCHAR(10)
+quantita		TINYINT, NOT NULL
+KM percorsi		NULL, DEFAULT(0)
+peso			NULL
+cavalli			NULL
+alimentazione		VARCHAR(10)
+note			VARCHAR(255)
+
+
